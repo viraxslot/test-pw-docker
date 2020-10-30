@@ -1,0 +1,15 @@
+{
+    "name": "test-pw-docker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "docker build --no-cache -t playwright-base ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "playwright": "^1.5.2"
+    }
+}
